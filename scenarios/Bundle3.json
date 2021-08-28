@@ -1,0 +1,400 @@
+{
+  "resourceType": "Bundle",
+  "id": "cf-1628537919171",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Developed / Reviewed personalized outside practice assignments<a name='mm'/></div>"
+        },
+        "id": "cf-1628627873362",
+        "status": "active",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Developed / Reviewed personalized outside practice assignments"
+        },
+        "name": "Developed / Reviewed personalized outside practice assignments"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Had group members role play skill with personalized scenarios  a minimum of 3 times each<a name='mm'/></div>"
+        },
+        "id": "cf-1628627092303",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Had group members role play skill with personalized scenarios  a minimum of 3 times each"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Discussed rationale and steps of social skill<a name='mm'/></div>"
+        },
+        "id": "cf-1628627016553",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Discussed rationale and steps of social skill"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Assessed / problem-solved barriers and facilitators to intervention or progress<a name='mm'/></div>"
+        },
+        "id": "cf-1628626954329",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Assessed / problem-solved barriers and facilitators to intervention or progress"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Goal setting / Assessment of progress<a name='mm'/></div>"
+        },
+        "id": "cf-1628626789274",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Goal setting / Assessment of progress"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Provided overview of SST and confirmed appropriateness for SST<a name='mm'/></div>"
+        },
+        "id": "cf-1628538662389",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Provided overview of SST and confirmed appropriateness for SST"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Discussed relationship of social skills to goals<a name='mm'/></div>"
+        },
+        "id": "cf-1628626914636",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Discussed relationship of social skills to goals"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Conducted assessment(s)<a name='mm'/></div>"
+        },
+        "id": "cf-1628626983846",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Conducted assessment(s)"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Modeled skill; reviewed model with members<a name='mm'/></div>"
+        },
+        "id": "cf-1628627054481",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Modeled skill; reviewed model with members"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ActivityDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Elicited and provided positive feedback about the role-plays followed by constructive feedback. If no constructive feedback was provided, planned how to make next role-play more challenging.<a name='mm'/></div>"
+        },
+        "id": "cf-1628627841042",
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "code": {
+          "text": "Elicited and provided positive feedback about the role-plays followed by constructive feedback. If no constructive feedback was provided, planned how to make next role-play more challenging."
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "CarePlan",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Social Skills Training Care Plan<a name='mm'/></div>"
+        },
+        "id": "cf-1630077399672",
+        "subject": {
+          "reference": "Patient/cf-1626969857942"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cf-1626969857942",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-07-29T18:14:55.000+00:00",
+          "source": "#d9CrGngaf4uev9Mj"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dan Veteran<a name=\"mm\"/></div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Dan Veteran",
+            "family": "Veteran",
+            "given": [
+              "Dan"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0648352638",
+            "use": "mobile"
+          },
+          {
+            "system": "email",
+            "value": "p.heuvel@gmail.com",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-07-15",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "line": [
+              "101 Main Street",
+              "Apartment 1"
+            ],
+            "city": "Gainesville",
+            "state": "Virginia",
+            "postalCode": "20155",
+            "country": "United States"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "multipleBirthBoolean": false
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "PlanDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Social Skills Training<a name='mm'/></div>"
+        },
+        "id": "cf-1628538047726",
+        "type": {
+          "coding": [
+            {
+              "code": "clinical-protocol",
+              "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+              "display": "Clinical Protocol"
+            }
+          ]
+        },
+        "subjectCodeableConcept": {
+          "coding": [
+            {
+              "code": "Patient",
+              "system": "http://hl7.org/fhir/resource-types",
+              "display": "Patient"
+            }
+          ]
+        },
+        "name": "Social Skills Training",
+        "goal": [
+          {
+            "description": {
+              "coding": [
+                {
+                  "code": "288441000119106",
+                  "system": "http://snomed.info/sct",
+                  "display": "Inadequate social skills"
+                }
+              ]
+            }
+          }
+        ],
+        "action": [
+          {
+            "prefix": "228559006",
+            "code": [
+              {
+                "coding": [
+                  {
+                    "code": "228559006",
+                    "system": "http://snomed.info/sct",
+                    "display": "Social skills training (procedure)"
+                  }
+                ]
+              }
+            ],
+            "textEquivalent": "Social skills training (procedure)",
+            "title": "Social skills training (procedure)",
+            "groupingBehavior": "logical-group",
+            "selectionBehavior": "all",
+            "action": [
+              {
+                "description": "Provided overview of SST and confirmed appropriateness for SST",
+                "definitionCanonical": "ActivityDefinition/cf-1628627873362"
+              },
+              {
+                "description": "Goal setting / Assessment of progress"
+              },
+              {
+                "description": "Discussed relationship of social skills to goals"
+              },
+              {
+                "description": "Assessed / problem-solved barriers and facilitators to intervention or progress"
+              },
+              {
+                "description": "Conducted assessment(s)"
+              },
+              {
+                "description": "Discussed rationale and steps of social skill"
+              },
+              {
+                "description": "Modeled skill; reviewed model with members"
+              },
+              {
+                "description": "Had group members role play skill with personalized scenarios  a minimum of 3 times each"
+              },
+              {
+                "description": "Elicited and provided positive feedback about the role-plays followed by constructive feedback. If no constructive feedback was provided, planned how to make next role-play more challenging."
+              },
+              {
+                "description": "Developed / Reviewed personalized outside practice assignments"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

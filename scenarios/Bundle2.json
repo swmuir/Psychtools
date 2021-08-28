@@ -1,0 +1,155 @@
+{
+  "resourceType": "Bundle",
+  "id": "cf-1627580005432",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Mental Status Exam Encounter<a name='mm'/></div>"
+        },
+        "status": "finished",
+        "id": "cf-1627580090450",
+        "subject": {
+          "reference": "Patient/cf-1626969857942"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "episodeOfCare": [
+          {
+            "reference": "EpisodeOfCare/cf-1626970590650"
+          }
+        ],
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/cf-1627580485035"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Alert Status<a name='mm'/></div>"
+        },
+        "status": "final",
+        "id": "cf-1627580210322",
+        "subject": {
+          "reference": "Patient/cf-1626969857942"
+        },
+        "encounter": {
+          "reference": "Encounter/cf-1627580090450"
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "LP173575-4",
+              "system": "http://loinc.org",
+              "display": "Alert status"
+            }
+          ]
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "LP32108-0",
+              "system": "http://loinc.org",
+              "display": "Normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Level of consciousness<a name='mm'/></div>"
+        },
+        "status": "final",
+        "id": "cf-1627580240696",
+        "subject": {
+          "reference": "Patient/cf-1626969857942"
+        },
+        "encounter": {
+          "reference": "Encounter/cf-1627580090450"
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "LP145900-9",
+              "system": "http://loinc.org",
+              "display": "Level of consciousness"
+            }
+          ],
+          "text": "Level of consciousness"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "LA6560-2",
+              "system": "http://loinc.org",
+              "display": "Confused"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cf-1626969857942",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-07-29T14:50:14.000+00:00",
+          "source": "#YQkHu6qdnW5gbCVJ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dan Veteran<a name=\"mm\"/></div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Dan Veteran",
+            "family": "Veteran",
+            "given": [
+              "Dan"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-07-15",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "multipleBirthBoolean": false
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Clinician<a name='mm'/></div>"
+        },
+        "id": "cf-1627580485035"
+      }
+    }
+  ]
+}
